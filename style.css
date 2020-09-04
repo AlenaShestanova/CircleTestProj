@@ -1,5 +1,16 @@
-#myCanvas {
-    display: block;
-    margin: 0 auto;
-    border:10px solid gray;
+#bigCircle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+}
+#smallCircle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
